@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@textpress/babel-preset-textpress@>=0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@textpress/babel-preset-textpress/-/babel-preset-textpress-0.0.1.tgz#9303ae0a529d84f79609f08324d621b3451d4520"
+"@textpress/babel-preset-textpress@>=0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@textpress/babel-preset-textpress/-/babel-preset-textpress-0.0.2.tgz#83cc238bcc9530f2e7c65d4a3d2574cdbeb8e122"
   dependencies:
     babel-cli ">=6.26.0"
     babel-core ">=6.26.0"
