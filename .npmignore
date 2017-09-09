@@ -1,4 +1,5 @@
 .*
+*.log
 src/
 gulpfile.js
 yalc.lock
