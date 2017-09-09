@@ -14,9 +14,9 @@
     babel-preset-bluebird ">=1.0.1"
     babel-preset-env ">=1.6.0"
 
-"@textpress/bump-version@>=0.0.2":
+"@textpress/gulp-bump-version@>=0.0.2":
   version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@textpress/bump-version/-/bump-version-0.0.2.tgz#8c856bb4fc029d0759c161772d02193d67ea5fd1"
+  resolved "https://registry.yarnpkg.com/@textpress/gulp-bump-version/-/gulp-bump-version-0.0.2.tgz#a7233ce7154f4f3cdc7d357c8f0f598bd727721f"
   dependencies:
     gulp ">=3.9.1"
     gulp-confirm ">=1.0.6"

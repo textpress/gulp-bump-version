@@ -1,5 +1,5 @@
 {
-  "name": "@textpress/bump-version",
+  "name": "@textpress/gulp-bump-version",
   "version": "0.0.2",
   "description": "Bumps version in package.json",
   "main": "lib/index.js",
@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@textpress/babel-preset-textpress": ">=0.0.1",
-    "@textpress/bump-version": ">=0.0.2",
+    "@textpress/gulp-bump-version": ">=0.0.2",
     "rimraf": "^2.6.1",
     "yargs": "^8.0.2"
   }
