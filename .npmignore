@@ -1,6 +1,5 @@
 .*
 src/
-node_modules/
 gulpfile.js
 yalc.lock
 yarn.lock
