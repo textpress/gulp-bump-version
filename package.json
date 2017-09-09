@@ -1,6 +1,6 @@
 {
   "name": "@textpress/gulp-bump-version",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Bumps version in package.json",
   "main": "lib/index.js",
   "repository": "github:textpress/jwt-token",
