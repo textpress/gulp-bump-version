@@ -4,7 +4,6 @@ import gulp from "gulp";
 import gutil from "gulp-util";
 import fs from "fs";
 import path from "path";
-import yargs from "yargs";
 
 export function currentVersion() {
     const { version } = JSON.parse( fs.readFileSync( path.join( process.cwd(), "package.json" ) ) );
@@ -12,10 +11,7 @@ export function currentVersion() {
 }
 
 export function bump( version ) {
-    if ( typeof version !== "string" ) {
-        version = yargs.argv.version === true ? "minor" : yargs.argv.version;
-    }
-
+    version = version === true ? "minor" : version;
     const versions = [ "major", "minor", "patch" ];
     if ( versions.indexOf( version ) === -1 ) {
         return gulp.src( "" )
