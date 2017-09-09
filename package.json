@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@textpress/babel-preset-textpress": ">=0.0.1",
-    "@textpress/gulp-bump-version": ">=0.0.2",
+    "@textpress/gulp-bump-version": ">=0.1.0",
     "rimraf": "^2.6.1",
     "yargs": "^8.0.2"
   }
