@@ -15,8 +15,8 @@
     babel-preset-env ">=1.6.0"
 
 "@textpress/gulp-bump-version@>=0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@textpress/gulp-bump-version/-/gulp-bump-version-0.1.0.tgz#41a6f24e02d27de29a4fc3e54e0367fb44528f4d"
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@textpress/gulp-bump-version/-/gulp-bump-version-0.2.0.tgz#9d07b197aee4c5ca661abb5bbc21a3eabf68879d"
   dependencies:
     gulp ">=3.9.1"
     gulp-confirm ">=1.0.6"
@@ -2386,9 +2386,15 @@ resumer@~0.0.0:
   dependencies:
     through "~2.3.4"
 
-rimraf@2, rimraf@^2.5.1, rimraf@^2.6.1:
+rimraf@2, rimraf@^2.5.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.1.tgz#c2338ec643df7a1b7fe5c54fa86f57428a55f33d"
+  dependencies:
+    glob "^7.0.5"
+
+rimraf@>=2.6.1, rimraf@^2.6.1:
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.2.tgz#2ed8150d24a16ea8651e6d6ef0f47c4158ce7a36"
   dependencies:
     glob "^7.0.5"
 
@@ -2771,9 +2777,9 @@ yargs-parser@^7.0.0:
   dependencies:
     camelcase "^4.1.0"
 
-yargs@^8.0.2:
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/yargs/-/yargs-8.0.2.tgz#6299a9055b1cefc969ff7e79c1d918dceb22c360"
+yargs@>=8.0.2:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/yargs/-/yargs-9.0.0.tgz#efe5b1ad3f94bdc20423411b90628eeec0b25f3c"
   dependencies:
     camelcase "^4.1.0"
     cliui "^3.2.0"
