@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "repository": "github:textpress/jwt-token",
   "scripts": {
-    "bump": "gulp bump --version",
+    "bump": "gulp bump --part",
     "build": "yarn run build:clean && yarn run build:lib",
     "build:clean": "rimraf lib",
     "build:lib": "babel -d lib src --ignore '**/__tests__/**'",

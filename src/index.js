@@ -4,6 +4,7 @@ import gulp from "gulp";
 import gutil from "gulp-util";
 import fs from "fs";
 import path from "path";
+import yargs from "yargs";
 
 export function currentVersion() {
     const { version } = JSON.parse( fs.readFileSync( path.join( process.cwd(), "package.json" ) ) );
@@ -30,6 +31,10 @@ export function bump( version ) {
         .on( "finish", () => {
             gutil.log( `\x1B[37mNew version is \x1B[4m\x1B[36m${currentVersion()}\x1B[24m\x1B[37m.` );
         } );
+}
+
+export function registerTask() {
+    gulp.task( "bump", () => bump( yargs.argv.part ) ); // don't use --version, because yargs.argv considers it and --help as special cases
 }
 
 export default bump;
