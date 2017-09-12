@@ -19,7 +19,7 @@
     "gulp-util": ">=3.0.8"
   },
   "devDependencies": {
-    "@textpress/babel-preset-textpress": ">=0.0.2",
+    "@textpress/babel-preset-textpress": ">=0.1.0",
     "@textpress/gulp-bump-version": ">=0.2.0",
     "rimraf": ">=2.6.1",
     "yargs": ">=8.0.2"
