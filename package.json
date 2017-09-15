@@ -11,7 +11,7 @@
         "build:lib": "babel -d lib src --ignore '**/__tests__/**'",
         "build:flow": "flow-copy-source -v -i '**/__tests__/**' src lib",
         "ci-build": "yarn run build",
-        "ci-release-note": "conventional-github-releaser -p eslint"
+        "ci-release-notes": "conventional-github-releaser -p eslint"
     },
     "dependencies": {
         "gulp": ">=3.9.1",
