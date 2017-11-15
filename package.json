@@ -23,8 +23,8 @@
         "@textpress/babel-preset-textpress": "*",
         "@textpress/eslint-config-textpress": "*",
         "@textpress/gulp-bump-version": "*",
-        "conventional-github-releaser": "^1.1.12",
+        "conventional-github-releaser": "^2.0.0",
         "rimraf": ">=2.6.1",
-        "yargs": ">=8.0.2"
+        "yargs": "^10.0.3"
     }
 }
