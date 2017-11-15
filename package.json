@@ -21,6 +21,7 @@
     },
     "devDependencies": {
         "@textpress/babel-preset-textpress": "*",
+        "@textpress/eslint-config-textpress": "*",
         "@textpress/gulp-bump-version": "*",
         "conventional-github-releaser": "^1.1.12",
         "rimraf": ">=2.6.1",
