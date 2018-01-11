@@ -16,7 +16,7 @@
     "dependencies": {
         "gulp": "3.x",
         "gulp-confirm": "1.x",
-        "gulp-exec": "2.x",
+        "gulp-exec": "3.0.1",
         "gulp-util": "3.x"
     },
     "devDependencies": {
