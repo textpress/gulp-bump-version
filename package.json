@@ -17,6 +17,7 @@
         "gulp": "*",
         "gulp-confirm": "*",
         "gulp-exec": "*",
+        "gulp-print": "*",
         "gulp-util": "*"
     },
     "devDependencies": {

@@ -1,5 +1,6 @@
 import confirm from "gulp-confirm";
 import exec from "gulp-exec";
+import print from "gulp-print";
 import gulp from "gulp";
 import gutil from "gulp-util";
 import fs from "fs";
@@ -16,8 +17,8 @@ export function bump( version ) {
     const versions = [ "major", "minor", "patch" ];
     if ( versions.indexOf( version ) === -1 ) {
         return gulp.src( "" )
-            .emit( 'error', new gutil.PluginError( "bump-version", "Unknown value of version argument: " + version + ". Acceptable values: " + versions.join( ", " ) ) )
-            ;
+            .emit( "error", new gutil.PluginError( "bump-version", "Unknown value of version argument: " + version + ". Acceptable values: " + versions.join( ", " ) ) )
+        ;
     }
 
     return gulp.src( "" )
@@ -28,9 +29,10 @@ export function bump( version ) {
         .pipe( exec( "git push origin master --tags" ) ) // push leftovers to reduce number of entities in version push
         .pipe( exec( `npm version ${version}` ) )
         .pipe( exec( "git push origin master --tags" ) )
-        .on( "finish", () => {
-            gutil.log( `\x1B[37mNew version is \x1B[4m\x1B[36m${currentVersion()}\x1B[24m\x1B[37m.` );
-        } );
+        .pipe( print( () => {
+            gutil.log( `\x1B[41mNew version is \x1B[4m\x1B[36m${currentVersion()}\x1B[24m\x1B[37m.\x1B[0m` );
+        } ) )
+    ;
 }
 
 export function registerTask() {
