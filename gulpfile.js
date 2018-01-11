@@ -1,4 +1,5 @@
 "use strict";
 
-require( "@textpress/gulp-bump-version" ).registerTask();
+require( "babel-register" );
+require( "./src" ).registerTask();
 

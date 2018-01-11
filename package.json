@@ -22,7 +22,7 @@
     "devDependencies": {
         "@textpress/babel-preset-textpress": "*",
         "@textpress/eslint-config-textpress": "*",
-        "@textpress/gulp-bump-version": "*",
+        "babel-register": "^6.26.0",
         "conventional-github-releaser": "^2.0.0",
         "rimraf": ">=2.6.1",
         "yargs": "^10.0.3"
