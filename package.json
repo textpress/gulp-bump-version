@@ -14,10 +14,10 @@
         "ci-release-notes": "conventional-github-releaser -p eslint"
     },
     "dependencies": {
-        "gulp": "3.x",
-        "gulp-confirm": "1.x",
-        "gulp-exec": "3.0.1",
-        "gulp-util": "3.x"
+        "gulp": "*",
+        "gulp-confirm": "*",
+        "gulp-exec": "*",
+        "gulp-util": "*"
     },
     "devDependencies": {
         "@textpress/babel-preset-textpress": "*",
