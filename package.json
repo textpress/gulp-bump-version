@@ -1,6 +1,6 @@
 {
     "name": "@textpress/gulp-bump-version",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "description": "Bumps version in package.json",
     "main": "lib/index.js",
     "repository": "github:textpress/gulp-bump-version",
