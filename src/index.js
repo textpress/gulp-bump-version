@@ -24,7 +24,7 @@ export function bump( version ) {
             ) );
     }
 
-    return gulp.src( "" )
+    return gulp.src( "package.json" )
         .pipe( confirm( {
             question: chalk`{white Current version is {cyan ${currentVersion()}}. Bump {cyan ${version}} version?}`,
             input: "_key:y"
